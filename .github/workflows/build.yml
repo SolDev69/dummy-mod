@@ -12,8 +12,6 @@ jobs:
       matrix:
         # Use these Java versions
         java: [
-          8, #Minimum supported by 1.13.2
-          11, #Old lts
           17,    # Current Java LTS & minimum supported by modern Minecraft
         ]
         # and run on both Linux and Windows
